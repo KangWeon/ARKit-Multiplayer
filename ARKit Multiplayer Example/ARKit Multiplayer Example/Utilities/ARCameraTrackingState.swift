@@ -22,7 +22,9 @@ extension ARCamera.TrackingState {
             case .insufficientFeatures:
                 return "TRACKING LIMITED\nNot enough surface detail"
             case .initializing:
-                return "INIT"
+                return "Init"
+            case .relocalizing:
+                return "Relocate"
             }
         }
     }

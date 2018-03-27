@@ -131,7 +131,11 @@ class ViewController: UIViewController {
     // Config properties
     let standardConfiguration: ARWorldTrackingConfiguration = {
         let configuration = ARWorldTrackingConfiguration()
-        configuration.planeDetection = .horizontal
+        if #available(iOS 11.3, *) {
+            configuration.planeDetection = [.horizontal, .vertical]
+        } else {
+            configuration.planeDetection = .horizontal
+        }
         return configuration
     }()
     var dragOnInfinitePlanesEnabled = false
