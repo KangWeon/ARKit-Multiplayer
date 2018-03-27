@@ -461,6 +461,10 @@
 				);
 				INFOPLIST_FILE = "ARKit Multiplayer Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fvisibility=hidden",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eugenebokhan.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ARKit Multiplayer Example/ARKit Multiplayer Example-Bridging-Header.h";
@@ -488,6 +492,10 @@
 				);
 				INFOPLIST_FILE = "ARKit Multiplayer Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fvisibility=hidden",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eugenebokhan.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ARKit Multiplayer Example/ARKit Multiplayer Example-Bridging-Header.h";
