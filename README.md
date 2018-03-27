@@ -48,6 +48,8 @@ If we run the same ARKit app on separate devices they won't be able to communica
 
 ##
 
+To use this project please use [`specific version`](https://drive.google.com/open?id=167FxM0XnqnsNiLR33x4gAolZ3r7zZpKe) of OpenCV.
+
 If you need to print QR of certain size you can use a small [`QR Generator`](https://github.com/eugenebokhan/QR-Generator) app that is going to help you with that.
 
 <p align="center">
